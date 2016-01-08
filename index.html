@@ -7,8 +7,32 @@
 
   </head>
   <body>
-
-<!--About Me-->
+<!-- Modal -->
+<div class="modal fade" id="contactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Ask me anything</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form">
+          <div class="form-group">
+            <label class="sr-only"for="email">Your E-mail</label>
+            <input type="text" class="form-control" placeholder="Your Email">
+          </div>
+          <div>
+            <input type="text" class="form-control" placeholder="Short and Sweet Message">
+          </div>
+          <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+<a class="btn btn-success btn-md" data-toggle="modal" href="#contactModal">Reach Out</a>
+<!-- About Me -->
     <div class="container aboutme">
         <div class="row">
           <div class="col-sm-12">
@@ -17,37 +41,9 @@
         </div>
       </div>
     </div>
-    <hr>
-<!--End About Me-->
-<!--Project List-->
-<div class="container">
-  <h2>Projects</h2>
-<div class="row">
-  <div class="col-sm-4">
-    <h3>Animal Shelter</h3>
-    <img class="img-responsive" src="img/iguana.jpg">
-    <p class="lead">Forage chambray single-origin coffee chillwave, biodiesel try-hard butcher flexitarian taxidermy street art disrupt.</p>
-    <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/animalshelter/">click here</a>
-  </div>
+<!-- End About Me -->
 
-  <div class="col-sm-4">
-    <h3>Cute Cupcakes</h3>
-    <img class="img-responsive" src="img/cupcakes.jpg">
-    <p class="lead">Forage chambray single-origin coffee chillwave, biodiesel try-hard butcher flexitarian taxidermy street art disrupt. </p>
-    <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/cutecupcake/">click here</a>
-  </div>
-
-  <div class="col-sm-4">
-    <h3>Vacation</h3>
-    <img class="img-responsive" src="img/cancun.jpg">
-    <p class="lead">Forage chambray single-origin coffee chillwave, biodiesel try-hard butcher flexitarian taxidermy street art disrupt. </p>
-    <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/vacation/">click here</a>
-  </div>
-</div>
-</div>
-<hr>
-<!--End Project List>
-<!--Timeline-->
+<!-- Timeline -->
   <div class="container">
 
       <h2>About Me</h2>
@@ -59,7 +55,7 @@
           <div class="timeline-heading">
             <h3 class="timeline-title">The Salad Days</h3>
             <img class="img-responsive" src="img/spokane.jpg">
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Born January 16th 1985</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>January 16th 1985 - August 2003</small></p>
           </div>
           <div class="timeline-body">
             <p>I grew up in Spokane, WA.</p>
@@ -71,10 +67,11 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <h3 class="timeline-title">Education</h3>
-            <img class="img-responsive" src="img/spokane.jpg">
+            <img class="img-responsive" src="img/boise.jpg">
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2003 - May 2007</small></p>
           </div>
           <div class="timeline-body">
-            <p>Studied Graphic Design and Photography at Boise State University</p>
+            <p>Studied at Boise State University where I recieved my BFA in Graphic Design with an emphasis in Photography</p>
           </div>
         </div>
       </li>
@@ -83,10 +80,11 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <h3 class="timeline-title">Denver</h3>
-            <img class="img-responsive" src="img/spokane.jpg">
+            <img class="img-responsive" src="img/denver.jpg">
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>May 2007 - August 2012</small></p>
           </div>
           <div class="timeline-body">
-            <p>Moved to Denver where I lived for 5 years</p>
+            <p>Worked in graphic design and fine foods retail while enjoying my quarter life crisis</p>
           </div>
         </div>
       </li>
@@ -95,10 +93,11 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <h3 class="timeline-title">NYC</h3>
-            <img class="img-responsive" src="img/spokane.jpg">
+            <img class="img-responsive" src="img/nyc.jpg">
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2012 - October 2014</small></p>
           </div>
           <div class="timeline-body">
-            <p>New York City for 2 years</p>
+            <p>Worked in non-profit marketing and freelance graphic design. Rode my bike 20 miles a day. Hungout on roof tops. Dumpster dived. Learned how to live extremely efficiently.</p>
           </div>
         </div>
       </li>
@@ -107,16 +106,54 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <h3 class="timeline-title">Portland</h3>
-            <img class="img-responsive" src="img/spokane.jpg">
+            <img class="img-responsive" src="img/portland.jpg">
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>October 2014 - Present</small></p>
           </div>
           <div class="timeline-body">
-            <p>Portland for one year</p>
+            <p class="lead">Worked at Stella Taco as FOH manager for a year. I decided to pursue coding training to change course and improve my future.</p>
+            <ul class="lead">
+              <li>Woodworking</li>
+              <li>Drawing</li>
+              <li>Photography</li>
+            </ul>  
           </div>
         </div>
       </li>
     </div>
     <hr>
-  <!--End Timeline-->
+  <!-- End Timeline -->
+
+  <!-- Project List -->
+  <div class="container">
+    <h2>Projects</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Animal Shelter</h3>
+      <img class="img-responsive" src="img/iguana.jpg">
+      <p>An assignment to create a webpage for an animal shelter that included profiles of several animals. I used html and css languages. Each animal profile is a seperate div allowing it to float above the <em>wood</em> body background image.</p>
+      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/animalshelter/">click here</a>
+    </div>
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-3">
+      <h3>Cute Cupcakes</h3>
+      <img class="img-responsive" src="img/cupcakes.jpg">
+      <p>Our assignment was to Create a new website for a cupcake shop with images, text and links using html and css. We styled particular elements with two different custom css rules.</p>
+      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/cutecupcake/">click here</a>
+    </div>
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-3">
+      <h3>Vacation</h3>
+      <img class="img-responsive" src="img/cancun.jpg">
+      <p>Forage chambray single-origin coffee chillwave, biodiesel try-hard butcher flexitarian taxidermy street art disrupt. </p>
+      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/vacation/">click here</a>
+    </div>
+  </div>
+  </div>
+
+
+
 
 
 </body>
