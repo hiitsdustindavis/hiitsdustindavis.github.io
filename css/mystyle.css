@@ -1,5 +1,6 @@
 body {
   padding-top: 70px;
+  background-color:
 }
 
 .timeline img{
@@ -10,5 +11,8 @@ body {
 }
 .aboutme img {
   float:left;
-  
+}
+
+.project .btn {
+  float:right;
 }
