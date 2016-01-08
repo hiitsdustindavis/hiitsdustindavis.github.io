@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 30px;
   background-color:
 }
 
@@ -9,10 +9,22 @@ body {
     margin-right: auto
 
 }
-.aboutme img {
-  float:left;
+.aboutme {
+text-align: center;
 }
 
-.project .btn {
-  float:right;
+.aboutme img {
+padding-bottom: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.col-sm-4 .btn {
+  float: right;
+}
+
+.col-sm-4 {
+  padding: 3%;
+  max-width: 400px;
 }
