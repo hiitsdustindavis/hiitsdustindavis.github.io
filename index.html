@@ -7,61 +7,34 @@
 
   </head>
   <body>
-<!-- Modal -->
-<div class="modal fade" id="contactModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Ask me anything</h4>
-      </div>
-      <div class="modal-body">
-        <form class="form">
-          <div class="form-group">
-            <label class="sr-only"for="email">Your E-mail</label>
-            <input type="text" class="form-control" placeholder="Your Email">
-          </div>
-          <div>
-            <input type="text" class="form-control" placeholder="Short and Sweet Message">
-          </div>
-          <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Modal -->
-<a class="btn btn-success btn-md" data-toggle="modal" href="#contactModal">Reach Out</a>
-<!-- About Me -->
-    <div class="container aboutme">
+<!-- My header -->
+    <div class="container-fluid myheader">
         <div class="row">
           <div class="col-sm-12">
-            <h2>Dustin Davis</h2>
+            <h1>Dustin Davis</h1>
             <img class="img-responsive" src="img/dustin.jpg">
         </div>
       </div>
     </div>
-<!-- End About Me -->
+<!-- End My header -->
 
 <!-- Timeline -->
   <div class="container">
-
       <h2>About Me</h2>
-
-    <ul class="timeline">
-      <li>
-        <div class="timeline-badge"><i class="glyphicon glyphicon-sunglasses"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h3 class="timeline-title">The Salad Days</h3>
-            <img class="img-responsive" src="img/spokane.jpg">
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>January 16th 1985 - August 2003</small></p>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-sunglasses"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">The Salad Days</h3>
+              <img class="img-responsive" src="img/spokane.jpg">
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>January 16th 1985 - August 2003</small></p>
+            </div>
+            <div class="timeline-body">
+              <p class="lead">I grew up in Spokane, WA. Skateboarded constantly, studied photography, metal fabrication, and woodworking</p>
+            </div>
           </div>
-          <div class="timeline-body">
-            <p>I grew up in Spokane, WA.</p>
-          </div>
-        </div>
-      </li>
+        </li>
       <li class="timeline-inverted">
         <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
         <div class="timeline-panel">
@@ -71,7 +44,7 @@
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2003 - May 2007</small></p>
           </div>
           <div class="timeline-body">
-            <p>Studied at Boise State University where I recieved my BFA in Graphic Design with an emphasis in Photography</p>
+            <p class="lead">Studied at Boise State University where I recieved my BFA in Graphic Design with an emphasis in Photography</p>
           </div>
         </div>
       </li>
@@ -84,7 +57,7 @@
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>May 2007 - August 2012</small></p>
           </div>
           <div class="timeline-body">
-            <p>Worked in graphic design and fine foods retail while enjoying my quarter life crisis</p>
+            <p class="lead">Worked in graphic design and fine foods retail while enjoying my quarter life crisis</p>
           </div>
         </div>
       </li>
@@ -97,7 +70,7 @@
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2012 - October 2014</small></p>
           </div>
           <div class="timeline-body">
-            <p>Worked in non-profit marketing and freelance graphic design. Rode my bike 20 miles a day. Hungout on roof tops. Dumpster dived. Learned how to live extremely efficiently.</p>
+            <p class="lead">Worked in non-profit marketing and freelance graphic design. Rode my bike 20 miles a day. Hungout on roof tops. Became a dumpster diver. Learned how to live extremely efficiently.</p>
           </div>
         </div>
       </li>
@@ -115,47 +88,83 @@
               <li>Woodworking</li>
               <li>Drawing</li>
               <li>Photography</li>
-            </ul>  
+            </ul>
           </div>
         </div>
       </li>
     </div>
-    <hr>
+
   <!-- End Timeline -->
 
   <!-- Project List -->
+<div class="container-fluid projects">
   <div class="container">
     <h2>Projects</h2>
-  <div class="row">
-    <div class="col-sm-3">
-      <h3>Animal Shelter</h3>
-      <img class="img-responsive" src="img/iguana.jpg">
-      <p>An assignment to create a webpage for an animal shelter that included profiles of several animals. I used html and css languages. Each animal profile is a seperate div allowing it to float above the <em>wood</em> body background image.</p>
-      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/animalshelter/">click here</a>
-    </div>
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-3">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Animal Shelter</h3>
+        <img class="img-responsive" src="img/iguana.jpg">
+        <p>An assignment to create a webpage for an animal shelter that included profiles of several animals. I used html and css languages. Each animal profile is a seperate div allowing it to float above the <em>wood</em> body background image.</p>
+        <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/animalshelter/">click here</a>
+      </div>
+
+      <div class="col-sm-1">
+      </div>
+
+      <div class="col-sm-3">
       <h3>Cute Cupcakes</h3>
-      <img class="img-responsive" src="img/cupcakes.jpg">
-      <p>Our assignment was to Create a new website for a cupcake shop with images, text and links using html and css. We styled particular elements with two different custom css rules.</p>
-      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/cutecupcake/">click here</a>
-    </div>
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-3">
-      <h3>Vacation</h3>
-      <img class="img-responsive" src="img/cancun.jpg">
-      <p>Forage chambray single-origin coffee chillwave, biodiesel try-hard butcher flexitarian taxidermy street art disrupt. </p>
-      <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/vacation/">click here</a>
+        <img class="img-responsive" src="img/cupcakes.jpg">
+        <p>Our assignment was to Create a new website for a cupcake shop with images, text and links using html and css. We styled particular elements with two different custom css rules.</p>
+        <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/cutecupcake/">click here</a>
+      </div>
+
+      <div class="col-sm-1">
+      </div>
+
+      <div class="col-sm-3">
+        <h3>Vacation</h3>
+        <img class="img-responsive" src="img/cancun.jpg">
+        <p>In this assignment we were tasked to explore and practice within the Bootstrap Framework. We made interactive navigation, a carousel slider, button groups and used column organization and nesting.</p>
+        <a class="btn btn-success btn-md" href="http://hiitsdustindavis.github.io/vacation/">click here</a>
+      </div>
     </div>
   </div>
   </div>
 
+<!-- Footer -->
+  <div class="container-fluid footer">
+    <div class="container">
+    <h4>Thank's for stopping by <i class="glyphicon glyphicon-sunglasses"></i></h4>
+    <p>Feel free to <a data-toggle="modal" href="#contactModal"><strong>Reach Out >></strong></a></p>
 
+  </div>
+  </div>
 
+<!-- Modal -->
+  <div class="modal fade" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Ask me anything</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div class="form-group">
+              <label class="sr-only"for="email">Your E-mail</label>
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div>
+              <input type="text" class="form-control" placeholder="Short and Sweet Message">
+            </div>
+            <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
+  <!-- End Modal -->
 </body>
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
